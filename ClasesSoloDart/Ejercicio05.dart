@@ -5,7 +5,7 @@ comprobar que los duplicados se eliminan. Añade el número 6 al conjunto. Impri
 por pantalla
 */
 void main(){
-  var numeros = {1,2,2,3,4,4,5};
+  var numeros = {1,2,3,4,5};
 print("El tamaño del conjunto es: ${numeros.length}");
   numeros.add(6);
   print(numeros);

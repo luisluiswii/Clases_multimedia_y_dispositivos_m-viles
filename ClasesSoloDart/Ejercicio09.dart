@@ -6,5 +6,12 @@
 */
 
 void main(){
+  String? texto = null;
+  print("La longitud del texto es: ${texto?.length ?? 'Texto vacío'}");
+  
+  print(texto ?? 'Texto vacío');
 
+  late String mensaje;
+  mensaje = "¡Hola, Dart!";
+  print(mensaje);
 }
